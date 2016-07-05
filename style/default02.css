@@ -1,0 +1,59 @@
+
+body {
+	border : 2px;
+	border-color : brown;
+}
+
+#firstHR {
+	border-style : 1px ;
+	border-color : #ffffff;
+}
+
+.menu_bar {
+	list-style-type :none;
+	margin : 0;
+	padding : 0;
+	background-color : lightgreen;
+	display :initial;
+}
+
+#menu_item {
+	display: inline;
+	padding-left: 10px;
+}
+
+#menu_item  a {
+	text-decoration : none;
+	color : brown;
+}
+
+#welcome_heading {
+	position : absolute;
+	padding-top : 1em;
+	padding-left : 150px;
+	border : 2px;
+	margin-left : 2px;
+	border-color : brown;
+	display : block;
+}
+
+#homediv {
+	background-color : lightgreen;
+	width : 80px;
+	height: inherit;
+	display : inline-block;
+}
+
+#homediv:hover {
+	animation : openBox 1s infinite;
+	animation-iteration-count : 1;
+}
+
+@keyframes openBox {
+	from  {height : 20px;}
+	to  {height : 100px;}
+}
+
+p {
+	display : block;
+}
