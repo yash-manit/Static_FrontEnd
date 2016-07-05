@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+#firstHR {
+	color : #ffffff;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-width: 10px;
+	height: 6px;
+	margin: 0px;
+}
